@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(180, 180, 180);
+}
+
+body {
+    background-color: gray;
+    padding: 45px;
+    /* display: flex; */
+}
+
+.card {
+    /* background-color: white; */
+    width: 500px;
+    min-height: 60px;
+    border-radius: 10px;
+    padding: 0 0 34px 0;
+    margin: 4px;
+    width: 420px;
+}
+
+.image {
+    padding: 10px;
+}
+
+.image img {
+    border-radius: 10px;
+
+}
+
+.panels {
+    padding: 5px 1px 15px 1px;
+    padding-left: 15px;
+}
+
+.panels span {
+    border: 2px solid grey;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgb(10, 87, 33);
+    background-color: rgb(176, 181, 193);
+    font-weight: bold;
+}
+
+.button {
+    padding: 5px;
+    text-align: center;
+
+}
+
+.button button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    background-color: rgb(216, 236, 253);
+    color: rgb(14, 150, 234);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.button button:hover {
+    background-color: bisque;
+    color: black;
+}
+
+.panels span:hover {
+    background-color: bisque;
+    color: black;
+    text-align: center;
+
+}
+
+.content {
+    padding: 10px;
+}

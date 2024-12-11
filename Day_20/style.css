@@ -1,0 +1,11 @@
+div > p:first-of-type{
+    display: inline;
+    color: red;
+    background-color: yellow;
+}
+div p:not(:first-of-type){
+    display: inline;
+    color: white;
+    background-color: blue;
+}
+    

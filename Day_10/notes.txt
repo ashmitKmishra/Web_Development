@@ -1,0 +1,23 @@
+ <div>
+        <ul>
+            Attributes for video Tag:
+            <div>
+                <li>src: Specifies the path to the video file.</li>
+                <li>controls: Adds video controls, like play, pause, and volume.</li>
+                <li>autoplay: Automatically starts playing the video when the page </li>loads.
+                <li>loop: Repeats the video once it ends.</li>
+                <li>muted: Mutes the video by default.</li>
+                <li>poster: (like a thumbnail) Specifies an image to be displayed before the video starts </li>playing.
+                <li>width and height: Specifies the dimensions of the video.</li>
+            </div>
+        </ul>
+    </div>
+
+For Audio:
+
+src: Specifies the path to the video file.</li>
+<li>controls: Adds video controls, like play, pause, and volume.</li>
+<li>autoplay: Automatically starts playing the video when the page </li>loads.
+<li>loop: Repeats the video once it ends.</li>
+<li>muted: Mutes the video by default.</li>
+preload: specifies if and how the audio should be loaded when the page starts ('auto', 'metadata', 'none')
